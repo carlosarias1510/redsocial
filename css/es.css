@@ -1,0 +1,46 @@
+/* Estilos para la tabla */
+#editable-table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#editable-table th, #editable-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#editable-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#editable-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el cuerpo de la tabla */
+#editable-table td {
+  background-color: #fff;
+}
+
+/* Estilos para las filas al pasar el ratón */
+#editable-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el paginador */
+.dataTables_paginate {
+  margin-top: 10px;
+}
+
+/* Estilos para el buscador */
+.dataTables_filter input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la información de la tabla */
+.dataTables_info {
+  margin-top: 10px;
+}
